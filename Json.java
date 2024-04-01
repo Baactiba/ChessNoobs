@@ -1,7 +1,5 @@
-package Baactiba.ChessNoobs;
 import java.io.IOException;
-import com.fasterxml.jackson.databind.JsonNode;
-import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.databind.*;
 public class Json
 {
 	static ObjectMapper mapper = getDefaultObjectMapper();
